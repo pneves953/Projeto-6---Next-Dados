@@ -20,23 +20,22 @@ Lembre da regra do E2: **não existe viabilidade sem amostra baixada e aberta.**
 
 ## 1. Problema de negócio
 
-Escreva em 2–4 frases. Tema não é problema: o problema diz **quem decide, o que decide, e com que informação decidiria melhor**. Evite "analisar X" — prefira "a organização Y precisa decidir Z, mas hoje decide sem W".
+A Neoenergia Pernambuco realiza a avaliação manualmente de laudos de aferição do medidor de energia apresentando indícios de irregulariedade.
 
-> _Exemplo: "A secretaria estadual de saúde de PE precisa decidir onde reforçar equipes antes da próxima temporada de dengue, mas hoje decide sem histórico consolidado de internações por município."_
+Hoje os laudos de aferição são analisados manualmente. O volume é alto, existe rotatividade na equipe e a classificação pode ser inconsistente. Isso gera atrasos, dificulta a análise de todos os laudos do mês e pode resultar em cobranças equivocadas.
 
-```
-(escreva aqui)
-```
+Logo , uma solução de triagem de laudos que automatiza a classificação de indícios e prioriza os casos por impacto, permitindo que os analistas concentrem o esforço nos laudos mais relevantes financeiramente.
 
 ---
 
 ## 2. Público / decisor
 
-Quem usa o dashboard e toma a decisão? Cargo ou papel concreto (secretário, gerente de logística, comandante de policiamento), não "a sociedade". É para essa pessoa que o pitch "vende a solução".
+Distribuidora de Energia - Neoenergia
 
-```
-(escreva aqui)
-```
+Área: Gestão de perdas
+
+Tomador de decisão: Analista de Perdas
+
 
 ---
 
@@ -95,7 +94,7 @@ Ao menos 3 riscos do **seu** projeto (não genéricos). Consulte a tabela de ris
 
 | Risco | Sinal precoce | Mitigação | Responsável por monitorar |
 |---|---|---|---|
-| | | | |
+| Dados indisponíveis ou decepcionantes| | | |
 | | | | |
 | | | | |
 
