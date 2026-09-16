@@ -59,8 +59,8 @@ Uma linha por fonte. A amostra precisa ter sido **baixada e aberta hoje** — co
 
 | Fonte | Link | Formato | Volume estimado | Licença/acesso | Amostra baixada e aberta? (sim/não) | Colunas-chave confirmadas na amostra |
 |---|---|---|---|---|---|---|
-| | | | | | | |
-| | | | | | | |
+|Excel de laudos da prestadora |Não aplicável — fonte fornecida pela |XLSX/Excel |12 meses |Acesso interno |Não — aguardando amostra |A confirmar |
+|Base existente da demandante |Não aplicável — fonte fornecida pela |SQL/banco |12 meses |Acesso interno |Não — aguardando amostra|A confirmar |
 
 ---
 
@@ -71,19 +71,20 @@ Defina primeiro a fatia mínima: o menor recorte que ainda exercita o ciclo comp
 **Fatia mínima (compromisso):**
 
 ```
-(ex.: internações por dengue em PE, 2021–2025, com dashboard de evolução e custo por município)
+Triagem de laudos de medidores dos últimos 12 meses, utilizando os campos estruturados disponíveis no Excel, com ingestão e validação dos dados, aplicação de regra de classificação de indício de fraude/defeito e geração de fila priorizada por impacto, com visualização dos principais indicadores do processo.
 ```
 
 **Extensões desejáveis (apenas se sobrar tempo):**
 
 ```
-(ex.: ampliar para o Nordeste; incluir cobertura vacinal)
+Ampliar a análise para períodos além da amostra inicial de 12 meses.
+Evoluir a priorização incorporando outros critérios operacionais definidos pela demandante.
 ```
 
 **Fora de escopo (o que decidimos NÃO fazer):**
 
 ```
-(ex.: previsão com machine learning; dados de outros agravos)
+Leitura automática do PDF dos laudos.
 ```
 
 ---
