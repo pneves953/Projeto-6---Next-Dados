@@ -92,9 +92,10 @@ Defina primeiro a fatia mínima: o menor recorte que ainda exercita o ciclo comp
 
 Ao menos 3 riscos do **seu** projeto (não genéricos). Consulte a tabela de riscos comuns no [`guia-do-projeto.md`](guia-do-projeto.md).
 
-| Risco | Sinal precoce | Mitigação | Responsável por monitorar |
-|---|---|---|---|
-| Dados indisponíveis ou decepcionantes| | | |
+| Risco | Sinal precoce | Mitigação | Responsável por monitorar | Plano B |
+|---|---|---|---|---|
+|Amostra de 12 meses não ser disponibilizada no prazo | SQL existente não ser disponibilizado ou não representar claramente as regras atuais | Cobrança tempestiva via e-mail para o Victor | Toda a Equipe | Criação de uma população fictícia para criação da ferramenta| 
+| Dados pessoais aparecerem na base| Colunas com títulos sujeitivos de informações pessoais| Troca da informação pessoal por um ID ou número de identificação e revisão antes de carregar os dados| Toda a Equipe | - |
 | | | | |
 | | | | |
 
