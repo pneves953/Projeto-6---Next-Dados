@@ -98,6 +98,20 @@ Ao menos 3 riscos do **seu** projeto (não genéricos). Consulte a tabela de ris
 | | | | |
 | | | | |
 
+Risco	Proteção
+Escopo grande demais	Regra do fatiável no canvas; corte no CP1 preserva o ciclo completo; congelamento em 05/10
+
+Dados indisponíveis ou decepcionantes	Amostra baixada e aberta no E2; fonte alternativa por tema em temas-sugeridos.md; troca de fonte livre até 21/09
+
+Dependência de uma pessoa técnica	"Todos codificam" verificado nos checkpoints; prova de reprodutibilidade na máquina de outro integrante; rodízio do daily
+
+Sobrecarga com o desafio do M5 (prazo 27/09)	Entregáveis parciais curtos no Sprint 1; mentores sabem do prazo concorrente; monitoria de 25/09 atende os dois assuntos
+
+Demonstração falha no pitch	Vídeo de plano B obrigatório desde o E9 (critério 2.5); checklist técnico no E11; regra dos 30 segundos (ver guia-do-pitch.md)
+
+Perfeccionismo no dashboard	Dia fixo (E8), dados já no banco desde o CP1, mantra "feio funcionando antes de bonito", teste do usuário leigo
+
+
 ---
 
 ## 7. Divisão de papéis
