@@ -11,10 +11,10 @@ Lembre da regra do E2: **não existe viabilidade sem amostra baixada e aberta.**
 | | |
 |---|---|
 | **Nome da equipe** | Equipe 6 |
-| **Integrantes** | |
-| **Mentor** | |
-| **Tema** | |
-| **Repositório GitHub** | |
+| **Integrantes** |Marcelo Guimaraes, Paulo Ximenes, Paulo Neves, Maria Alice, Amanda Conceição, Luiza Delgado, Rodrigo Amorim, Victor Silva, Maria Clara Carvalho, Ana Carolina|
+| **Mentor** |Ricardo Andrade , Eric Araujo|
+| **Tema** |Triagem de Laudos|
+| **Repositório GitHub** |https://github.com/pneves953/Projeto-6---Next-Dados/tree/main |
 
 ---
 
@@ -55,23 +55,19 @@ No mínimo 3, respondíveis com os dados escolhidos. Uma pergunta respondível t
 
 ## 4. Fontes de dados
 
-Uma linha por fonte. A amostra precisa ter sido **baixada e aberta hoje** — coluna a coluna. Lembrete: se a fonte tiver API, a coleta usa API (requisito do M3). Troca de fonte é livre até o E3 (21/09); depois, só com a coordenação.
-
 | Fonte | Link | Formato | Volume estimado | Licença/acesso | Amostra baixada e aberta? (sim/não) | Colunas-chave confirmadas na amostra |
 |---|---|---|---|---|---|---|
-|Excel de laudos da prestadora |Não aplicável — fonte fornecida pela |XLSX/Excel |12 meses |Acesso interno |Não — aguardando amostra |A confirmar |
-|Base existente da demandante |Não aplicável — fonte fornecida pela |SQL/banco |12 meses |Acesso interno |Não — aguardando amostra|A confirmar |
+|Excel de laudos da prestadora |Não aplicável, fonte fornecida pela demandante |XLSX/Excel |12 meses |Acesso interno |Não, aguardando amostra |A confirmar |
+|Base existente da demandante |Não aplicável, fonte fornecida pela demandante |SQL/banco |12 meses |Acesso interno |Não, aguardando amostra|A confirmar |
 
 ---
 
 ## 5. Escopo e entregáveis — a regra do fatiável
 
-Defina primeiro a fatia mínima: o menor recorte que ainda exercita o ciclo completo (banco → pipeline → análise → dashboard). Ela é o compromisso da equipe. As extensões só entram se a fatia mínima estiver pronta — e nada entra após o congelamento de escopo (05/10).
-
 **Fatia mínima (compromisso):**
 
 ```
-Triagem de laudos de medidores dos últimos 12 meses, utilizando os campos estruturados disponíveis no Excel, com ingestão e validação dos dados, aplicação de regra de classificação de indício de fraude/defeito e geração de fila priorizada por impacto, com visualização dos principais indicadores do processo.
+Triagem de laudos de medidores dos últimos 12 meses, utilizando os campos estruturados disponíveis no Excel, com ingestão e validação dos dados, aplicação de regra de classificação de indício de fraude/defeito e geração de fila priorizada por impacto financeiro, com visualização dos principais indicadores do processo.
 ```
 
 **Extensões desejáveis (apenas se sobrar tempo):**
@@ -91,13 +87,11 @@ Leitura automática do PDF dos laudos.
 
 ## 6. Riscos e mitigação
 
-Ao menos 3 riscos do **seu** projeto (não genéricos). Consulte a tabela de riscos comuns no [`guia-do-projeto.md`](guia-do-projeto.md).
-
-| Risco | Sinal precoce | Mitigação | Responsável por monitorar | Plano B |
-|---|---|---|---|---|
-|Amostra de 12 meses não ser disponibilizada no prazo | SQL existente não ser disponibilizado ou não representar claramente as regras atuais | Cobrança tempestiva via e-mail para o Victor | Toda a Equipe | Criação de uma população fictícia para criação da ferramenta| 
-| Dados pessoais aparecerem na base| Colunas com títulos sujeitivos de informações pessoais| Troca da informação pessoal por um ID ou número de identificação e revisão antes de carregar os dados| Toda a Equipe | - |
-| Perfeccionismo no dashboard|Informações demais e não objetivas no dasboard. | Checklist para criação do dashboard| Todo a equipe | - |
+| Risco | Sinal precoce | Mitigação | Responsável por monitorar| 
+|---|---|---|---|
+|Amostra de 12 meses não ser disponibilizada no prazo | SQL existente não ser disponibilizado ou não representar claramente as regras atuais | Cobrança tempestiva via e-mail para o coordenador do curso e criação de uma população fictícia para criação da ferramenta | Scrum Master e time de dados | 
+| Dados pessoais aparecerem na base| Colunas com títulos sujeitivos de informações pessoais| Troca da informação pessoal por um ID ou número de identificação e revisão antes de carregar os dados| QA |
+| Base de dados com dados insuficientes |Tamanho do arquivo recebido |Enviar nova solicitação dos dados revisados | Scrum Master e Time de análise de dados |
 
 ---
 
@@ -107,15 +101,15 @@ Todos codificam — papéis distribuem responsabilidade de acompanhamento, não 
 
 | Papel | Titular | Sombra |
 |---|---|---|
-| Coordenação de projeto | | |
-| Dados / pipeline | | |
-| Análise | | |
-| Visualização / pitch | | |
+| Coordenação de projeto |Paulo Ximenes |Paulo Neves |
+| Dados / pipeline |Maria Alice |Amanda Conceição |
+| Análise |Luiza Delgado |Marcelo Guimaraes|
+| Visualização / pitch |Toda a equipe |Toda a equipe |
 
 **Canal de comunicação da equipe (fora do horário de aula):**
 
 ```
-(ex.: grupo no WhatsApp + board no GitHub Projects)
+Grupo de Whatsapp
 ```
 
 ---
